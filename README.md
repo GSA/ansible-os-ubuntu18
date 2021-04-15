@@ -1,4 +1,4 @@
-Ubuntu 18.04 CIS Benchmark
+Ubuntu 18.04 GSA Benchmark
 ==========================
 Configure Ubuntu 18.04 machine to be GSA compliant. Level 1 and 2 findings will be corrected by default. It's based on [GSA Ubuntu 18.04 Benchmark](https://docs.google.com/spreadsheets/d/1xyvzohWWbTMhuTCeqAFRpnXEUGpapvjwyfxbq8ocP2o).
 
