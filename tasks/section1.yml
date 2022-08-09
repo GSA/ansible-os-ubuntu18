@@ -702,7 +702,6 @@
 - name: "SCORED | 1.4.2 | PATCH | Ensure filesystem integrity is regularly checked"
   cron:
       name: Run AIDE integrity check weekly
-      cron_file: "{{ ubuntu1804cis_aide_cron['cron_file'] }}"
       user: "{{ ubuntu1804cis_aide_cron['cron_user'] }}"
       minute: "{{ ubuntu1804cis_aide_cron['aide_minute'] | default('0') }}"
       hour: "{{ ubuntu1804cis_aide_cron['aide_hour'] | default('5') }}"
